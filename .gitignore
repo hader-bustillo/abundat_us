@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/*.pyc
+*.idea
+core/__pycache__/*.pyc
+.ipynb_checkpoints/*
+output/*
+logs/*.log
+Logs/*.log
+logs/*.png*
+logs/*.jpg*
+.DS_Store
+**/.DS_Store

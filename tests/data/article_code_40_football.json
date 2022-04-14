@@ -1,0 +1,1532 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "gameIds": [
+      999991
+    ],
+    "collections": {
+      "gameCollection": {
+        "list": [
+          {
+            "gameId": 999991,
+            "homeTeamId": 274487,
+            "awayTeamId": 275030,
+            "homeSquadId": 1010,
+            "awaySquadId": 1010,
+            "sportName": "football",
+            "gameSegmentType": "quarter",
+            "useGameClock": null,
+            "creatorUserId": 42163,
+            "minutesPerPeriod": null,
+            "startDateTime": "2017-11-04 17:00:00",
+            "minUrl": "https://scorestream.com/game/1466427",
+            "hideLevel": 0,
+            "rankBonus": 0,
+            "dateCreated": "2017-09-21 18:24:26",
+            "venueId": 129112,
+            "gameTitle": null,
+            "scheduleCategoryId": null,
+            "apSpecialName": null,
+            "homeTeamCheers": 0,
+            "awayTeamCheers": 30,
+            "localGameTimezone": "America/New_York",
+            "sourceConfidenceLevel": 80,
+            "branchedUsers": {},
+            "lastScore": {
+              "awayTeamScore": 31,
+              "homeTeamScore": 7,
+              "gameSegmentId": 19999,
+              "scoredDateTime": "2017-11-04 20:45:48",
+              "gameClock": null,
+              "confidenceGrade": 9999,
+              "stoppageStatusId": null,
+              "stoppageMessage": null,
+              "stoppageUntilDateTime": null,
+              "stoppageGameSegmentId": null,
+              "lastProcessedGameScoreId": 7596211,
+              "lastBranchScoreGameScoreId": 7596211,
+              "basedOnGameScoreId": 7596211,
+              "verifiedByCompanyIds": [
+                1
+              ],
+              "confidenceGradeInfluencers": []
+            },
+            "boxScores": [
+              {
+                "gameSegmentId": 10010,
+                "awayTeamScore": 7,
+                "homeTeamScore": 0
+              },
+              {
+                "gameSegmentId": 10020,
+                "awayTeamScore": 7,
+                "homeTeamScore": 7
+              },
+              {
+                "gameSegmentId": 10030,
+                "awayTeamScore": "-",
+                "homeTeamScore": "-"
+              },
+              {
+                "gameSegmentId": 10040,
+                "awayTeamScore": 17,
+                "homeTeamScore": 0
+              },
+              {
+                "awayTeamScore": 31,
+                "homeTeamScore": 7,
+                "gameSegmentId": 19999
+              }
+            ],
+            "totalPosts": 2,
+            "totalVideos": 0,
+            "totalPictures": 0,
+            "totalChats": 1,
+            "totalQuickScores": 1,
+            "relativeUrl": "/game/dummy_game",
+            "url": "https://scorestream.com/game/game/dummy_game",
+            "longitude": -81.251195,
+            "latitude": 41.717048,
+            "sportId": 1,
+            "gameSegmentTypeId": 1
+          }
+        ]
+      },
+      "teamCollection": {
+        "list": [
+          {
+            "teamId": 275030,
+            "teamName": "Walsh University",
+            "mascot1": "Cavaliers",
+            "color1Id": 1520,
+            "color2Id": 1400,
+            "color3Id": null,
+            "isOfficialTeam": 1,
+            "hideLevel": 0,
+            "levelOfPlayId": 1040,
+            "organizationId": 1050,
+            "defaultSquadId": 1010,
+            "squadListIsLocked": 1,
+            "varsityLetter": "W",
+            "acronymTeamName": "WU",
+            "minTeamName": "Walsh U.",
+            "shortTeamName": "Walsh Univ.",
+            "apTeamName": "Walsh U.",
+            "colloquialTeamName": "Walsh University",
+            "locationId": 129655,
+            "city": "North Canton",
+            "state": "OH",
+            "country": "US",
+            "latitude": 40.874004,
+            "longitude": -81.36852299999998,
+            "officialTeamName": "Walsh University",
+            "relativeUrl": "/team/walsh-university-cavaliers-275030",
+            "url": "https://scorestream.com/team/walsh-university-cavaliers-275030",
+            "backgroundTeamPictureIds": [],
+            "mascotTeamPictureIds": [
+              67466
+            ],
+            "squadIds": [
+              1010,
+              1040
+            ]
+          },
+          {
+            "teamId": 274487,
+            "teamName": "Lake Erie College",
+            "mascot1": "Storm",
+            "color1Id": 1290,
+            "color2Id": 1010,
+            "color3Id": null,
+            "isOfficialTeam": 1,
+            "hideLevel": 0,
+            "levelOfPlayId": 1040,
+            "organizationId": 1050,
+            "defaultSquadId": 1010,
+            "squadListIsLocked": 1,
+            "varsityLetter": "L",
+            "acronymTeamName": "LEC",
+            "minTeamName": "Lake Erie College",
+            "shortTeamName": "Lake Erie College",
+            "apTeamName": "Lake Erie College",
+            "colloquialTeamName": "Lake Erie College",
+            "locationId": 129112,
+            "city": "Painesville",
+            "state": "OH",
+            "country": "US",
+            "latitude": 41.717048,
+            "longitude": -81.251195,
+            "officialTeamName": "Lake Erie College",
+            "relativeUrl": "/team/lake-erie-college-storm-274487",
+            "url": "https://scorestream.com/team/lake-erie-college-storm-274487",
+            "backgroundTeamPictureIds": [
+              66566
+            ],
+            "mascotTeamPictureIds": [
+              66564
+            ],
+            "squadIds": [
+              1010,
+              1040
+            ]
+          }
+        ]
+      },
+      "userCollection": {
+        "list": []
+      },
+      "squadCollection": {
+        "list": [
+          {
+            "squadId": 1040,
+            "gender": "girls",
+            "level": "High School Varsity",
+            "shortLevel": "Varsity",
+            "minLevel": null,
+            "sortOrder": 1040,
+            "gameCardDisplay": "Girls Varsity {sport}",
+            "scoreboardDisplay": "Girls Varsity {sport}",
+            "selectionDisplay": "Girls High School Varsity",
+            "spgDisplayLong": "Girls Varsity {sport}",
+            "spgDisplayShort": "Girls HS{sportAbbreviation}",
+            "spgDisplayMin": "G{sportAbbreviation}",
+            "display": "Girls High School Varsity",
+            "shortDisplay": "Girls Varsity",
+            "parentOrganizationId": 1000
+          },
+          {
+            "squadId": 1010,
+            "gender": "boys",
+            "level": "High School Varsity",
+            "shortLevel": "Varsity",
+            "minLevel": null,
+            "sortOrder": 1010,
+            "gameCardDisplay": "Boys Varsity {sport}",
+            "scoreboardDisplay": "Boys Varsity {sport}",
+            "selectionDisplay": "Boys High School Varsity",
+            "spgDisplayLong": "Boys Varsity {sport}",
+            "spgDisplayShort": "Boys HS{sportAbbreviation}",
+            "spgDisplayMin": "B{sportAbbreviation}",
+            "display": "Boys High School Varsity",
+            "shortDisplay": "Boys Varsity",
+            "parentOrganizationId": 1000
+          }
+        ]
+      },
+      "teamPictureCollection": {
+        "list": [
+          {
+            "teamPictureId": 66566,
+            "creatorUserId": 188263,
+            "teamId": 274487,
+            "type": "background",
+            "originalUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_backgroundOrig.jpg",
+            "max480Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "max720Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "max1200Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "max2000Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "thumbnailUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "fullUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274487/20181010233007_258_background480Near.jpg",
+            "width": 450,
+            "height": 300,
+            "aspectRatio": 1.5
+          },
+          {
+            "teamPictureId": 67466,
+            "creatorUserId": 188263,
+            "teamId": 275030,
+            "type": "mascot",
+            "originalUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascotOrig.jpg",
+            "max35Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot35.jpg",
+            "max44Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot44.jpg",
+            "max90Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot90.jpg",
+            "max135Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot135.jpg",
+            "max300Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot300.jpg",
+            "max720Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot720.jpg",
+            "max1280Url": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot1280Near.jpg",
+            "thumbnailUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot720.jpg",
+            "fullUrl": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/275030/20181010233656_284_mascot1280Near.jpg",
+            "width": 1252,
+            "height": 1252,
+            "aspectRatio": 1
+          }
+        ]
+      },
+      "gameSegmentCollection": {
+        "list": []
+      },
+      "stoppageStatusCollection": {
+        "list": []
+      },
+      "colorCollection": {
+        "list": [
+          {
+            "colorId": 1520,
+            "name": "Cardinal",
+            "r": 135,
+            "g": 6,
+            "b": 25,
+            "a": 255,
+            "lightColor": {
+              "r": 226,
+              "g": 98,
+              "b": 92
+            },
+            "darkColor": {
+              "r": 79,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1290,
+            "name": "Green",
+            "r": 78,
+            "g": 174,
+            "b": 71,
+            "a": 255,
+            "lightColor": {
+              "r": 164,
+              "g": 255,
+              "b": 149
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 120,
+              "b": 16
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1400,
+            "name": "Gold",
+            "r": 242,
+            "g": 200,
+            "b": 0,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 251,
+              "b": 79
+            },
+            "darkColor": {
+              "r": 181,
+              "g": 146,
+              "b": 0
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1290,
+            "name": "Green",
+            "r": 78,
+            "g": 174,
+            "b": 71,
+            "a": 255,
+            "lightColor": {
+              "r": 164,
+              "g": 255,
+              "b": 149
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 120,
+              "b": 16
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1310,
+            "name": "Dark Green",
+            "r": 13,
+            "g": 64,
+            "b": 6,
+            "a": 255,
+            "lightColor": {
+              "r": 90,
+              "g": 138,
+              "b": 76
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 24,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1350,
+            "name": "Kelly Green",
+            "r": 0,
+            "g": 158,
+            "b": 96,
+            "a": 255,
+            "lightColor": {
+              "r": 118,
+              "g": 242,
+              "b": 174
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 105,
+              "b": 48
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1100,
+            "name": "Blue",
+            "r": 27,
+            "g": 68,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 157,
+              "g": 143,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 22,
+              "b": 196
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1100,
+            "name": "Blue",
+            "r": 27,
+            "g": 68,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 157,
+              "g": 143,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 22,
+              "b": 196
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1290,
+            "name": "Green",
+            "r": 78,
+            "g": 174,
+            "b": 71,
+            "a": 255,
+            "lightColor": {
+              "r": 164,
+              "g": 255,
+              "b": 149
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 120,
+              "b": 16
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1100,
+            "name": "Blue",
+            "r": 27,
+            "g": 68,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 157,
+              "g": 143,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 22,
+              "b": 196
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1090,
+            "name": "Royal",
+            "r": 41,
+            "g": 0,
+            "b": 173,
+            "a": 255,
+            "lightColor": {
+              "r": 142,
+              "g": 87,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 119
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1530,
+            "name": "Burgundy",
+            "r": 114,
+            "g": 28,
+            "b": 48,
+            "a": 255,
+            "lightColor": {
+              "r": 199,
+              "g": 105,
+              "b": 118
+            },
+            "darkColor": {
+              "r": 61,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1400,
+            "name": "Gold",
+            "r": 242,
+            "g": 200,
+            "b": 0,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 251,
+              "b": 79
+            },
+            "darkColor": {
+              "r": 181,
+              "g": 146,
+              "b": 0
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1400,
+            "name": "Gold",
+            "r": 242,
+            "g": 200,
+            "b": 0,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 251,
+              "b": 79
+            },
+            "darkColor": {
+              "r": 181,
+              "g": 146,
+              "b": 0
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1080,
+            "name": "Navy",
+            "r": 30,
+            "g": 30,
+            "b": 128,
+            "a": 255,
+            "lightColor": {
+              "r": 119,
+              "g": 99,
+              "b": 210
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 80
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1020,
+            "name": "Gray",
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 255,
+            "lightColor": {
+              "r": 208,
+              "g": 208,
+              "b": 208
+            },
+            "darkColor": {
+              "r": 79,
+              "g": 79,
+              "b": 79
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1020,
+            "name": "Gray",
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 255,
+            "lightColor": {
+              "r": 208,
+              "g": 208,
+              "b": 208
+            },
+            "darkColor": {
+              "r": 79,
+              "g": 79,
+              "b": 79
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1400,
+            "name": "Gold",
+            "r": 242,
+            "g": 200,
+            "b": 0,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 251,
+              "b": 79
+            },
+            "darkColor": {
+              "r": 181,
+              "g": 146,
+              "b": 0
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1020,
+            "name": "Gray",
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 255,
+            "lightColor": {
+              "r": 208,
+              "g": 208,
+              "b": 208
+            },
+            "darkColor": {
+              "r": 79,
+              "g": 79,
+              "b": 79
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1440,
+            "name": "Orange",
+            "r": 223,
+            "g": 97,
+            "b": 8,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 178,
+              "b": 95
+            },
+            "darkColor": {
+              "r": 160,
+              "g": 44,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1480,
+            "name": "Red",
+            "r": 209,
+            "g": 41,
+            "b": 41,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 132,
+              "b": 112
+            },
+            "darkColor": {
+              "r": 145,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1000,
+            "name": "White",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255,
+            "lightColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "darkColor": {
+              "r": 198,
+              "g": 198,
+              "b": 198
+            },
+            "isLight": true,
+            "foregroundColor": {
+              "r": 40,
+              "g": 40,
+              "b": 40
+            },
+            "foregroundShadowColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1080,
+            "name": "Navy",
+            "r": 30,
+            "g": 30,
+            "b": 128,
+            "a": 255,
+            "lightColor": {
+              "r": 119,
+              "g": 99,
+              "b": 210
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 80
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          },
+          {
+            "colorId": 1010,
+            "name": "Black",
+            "r": 20,
+            "g": 20,
+            "b": 20,
+            "a": 255,
+            "lightColor": {
+              "r": 85,
+              "g": 85,
+              "b": 85
+            },
+            "darkColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "isDark": true,
+            "foregroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "foregroundShadowColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 120
+            }
+          }
+        ]
+      },
+      "scheduleCategoryCollection": {
+        "list": []
+      }
+    },
+    "total": 1,
+    "totalTeams": 2
+  }
+}

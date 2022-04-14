@@ -1,0 +1,92 @@
+  version: 2.1
+
+  orbs:
+    aws-ecr: circleci/aws-ecr@7.3.0
+    aws-ecs: circleci/aws-ecs@2.2.1
+  jobs:
+    checkout:
+      working_directory: ~/repo
+      docker:
+        - image: circleci/python:3.6.2-stretch
+      steps:
+        - restore_cache:
+            keys:
+              - v1-source-{{ .Branch }}-{{ .Revision }}
+        - checkout:
+            path: ~/repo
+        - save_cache:
+            key: v1-source-{{ .Branch }}-{{ .Revision }}
+            paths:
+              - ".git"
+    build:
+      working_directory: ~/repo
+      docker:
+        - image: 898314620182.dkr.ecr.us-east-2.amazonaws.com/ledeai_abundat_base:latest
+          aws_auth:
+            aws_access_key_id: $AWS_ACCESS_ID
+            aws_secret_access_key: $AWS_SECRET_KEY
+      steps:
+        - checkout
+        - run:
+            name: Install dependencies
+            command: |
+              export PATH="$HOME/miniconda/bin:$PATH"
+              echo $PATH
+              echo `which conda`
+              if [[ `which conda` ]]; then echo 'Conda installation successful'; else exit 1; fi
+              conda update --all --yes
+              cd ~/repo
+              conda env update -n root -f environment.yml
+              conda list
+        - run:
+            name: run pytest
+            command: |
+              mkdir -p output logs
+              mkdir test-reports
+              export PATH="$HOME/miniconda/bin:$PATH"
+              echo $PATH
+              export AWS_DEFAULT_REGION=us-east-2
+              python -m pytest -vv --junitxml=test-reports/junit.xml
+        - store_test_results:
+            path: test-reports
+
+        - store_artifacts:
+            path: test-reports
+
+  workflows:
+    build_and_deploy:
+      jobs:
+        - checkout
+        - build:
+            requires:
+              - checkout
+        - aws-ecr/build-and-push-image:
+            account-url: AWS_ECR_ACCOUNT_URL
+            aws-access-key-id: AWS_ACCESS_ID
+            aws-secret-access-key: AWS_SECRET_KEY
+            dockerfile: Dockerfile
+            path: .
+            create-repo: true
+            region: AWS_REGION
+            repo: ledeai_abundat_$CIRCLE_BRANCH
+            tag: "latest,$CIRCLE_SHA1"
+            filters:
+              branches:
+                only:
+                  - master
+                  - staging
+            requires:
+              - build
+        - aws-ecs/update-task-definition:
+            aws-access-key-id: AWS_ACCESS_ID
+            aws-secret-access-key: AWS_SECRET_KEY
+            aws-region: AWS_REGION
+            container-image-name-updates: 'container=ledeai_abundat_${CIRCLE_BRANCH}-service,tag=${CIRCLE_SHA1}'
+            family: 'ledeai_abundat_${CIRCLE_BRANCH}-service'
+            filters:
+              branches:
+                only:
+                  - master
+                  - staging
+            requires:
+              - aws-ecr/build-and-push-image

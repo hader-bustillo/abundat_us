@@ -1,0 +1,38 @@
+    {
+    "id": 1,
+    "name": "Test_customer_post_back",
+    "publisher_name": "Test Customer",
+    "publisher_phone": "",
+    "publisher_email": "",
+    "editor_name": "",
+    "editor_phone": "",
+    "editor_email": "jothi@abundat.com",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zipcode":  "",
+    "additional_contact_emails_for_articles":["jothi@abundat.com"],
+    "article_publishing_time": "",
+    "article_publishing_level": "development_text",
+    "timezone" : "US/Eastern",
+    "invoice_company": "Test",
+    "trailer_boiler_plate" : {
+        "text": "\nIf you would like to join in the action,download the Scorestream app today.\nThis sports coverage is possible through the generous support of our members. To become a member for as little as $5 per month, follow this link.",
+        "html": "<p><a href=\"https://scorestream.com/gettheapp\">If you would like to join in the action, download the Scorestream app today.</a></p><p>This sports coverage is possible through the generous support of our members. To become a member for as little as $5 per month, <a href=\"https://www.sourcemembers.com/\">follow this link.</a></p>"
+    },
+    "article_output_file": "test_customer_article.txt",
+    "location":[[41.738379, -80.817047]],
+    "sports_interested":["all"],
+    "content_dynamics": "low",
+    "coverage": [
+                   {
+                     "sport": "all",
+                     "definition": "state",
+                     "id_lists" : ["TN"],
+                     "sports_level": [1010, 1040]
+                   }
+    ],
+    "auto_publish": false,
+    "publishing_system": [{"active":  true, "system_type":  "wordpress", "system_name":  "wordpress"}],
+    "test_system": false
+      }

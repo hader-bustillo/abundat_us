@@ -1,0 +1,34 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../Infront"
+        },
+        {
+            "path": "../../ledeai-ui"
+        },
+        {
+            "path": "../../teammate-ai"
+        },
+        {
+            "path": "../../gci_hurricane"
+        },
+        {
+            "path": "../../ledeai_lambda_handler"
+        },
+        {
+            "path": "../../ledeai_lists"
+        },
+        {
+            "path": "../../adowl"
+        },
+        {
+            "path": "../../language-app"
+        },
+        {
+            "path": "../../../scratches"
+        }
+    ]
+}

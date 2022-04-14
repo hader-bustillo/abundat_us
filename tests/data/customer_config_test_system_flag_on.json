@@ -1,0 +1,123 @@
+    {
+    "id": 1,
+    "name": "Test_customer_test_system_on",
+    "publisher_name": "Test Customer",
+    "publisher_phone": "",
+    "publisher_email": "",
+    "editor_name": "",
+    "editor_phone": "",
+    "editor_email": "jothi@abundat.com",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zipcode":  "",
+    "additional_contact_emails_for_articles":["jothi@abundat.com"],
+    "article_publishing_time": "",
+    "timezone" : "US/Eastern",
+    "invoice_company": "Test",
+    "trailer_boiler_plate" : {
+        "text": "\nIf you would like to join in the action,download the Scorestream app today.\nThis sports coverage is possible through the generous support of our members. To become a member for as little as $5 per month, follow this link.",
+        "html": "<p><a href=\"https://scorestream.com/gettheapp\">If you would like to join in the action, download the Scorestream app today.</a></p><p>This sports coverage is possible through the generous support of our members. To become a member for as little as $5 per month, <a href=\"https://www.sourcemembers.com/\">follow this link.</a></p>"
+    },
+    "article_output_file": "test_customer_article.txt",
+    "location":[[41.738379, -80.817047]],
+    "sports_interested":["all"],
+    "content_dynamics": "low",
+    "coverage": [
+                   {
+                     "sport": "all",
+                     "definition": "state",
+                     "id_lists" : ["TN"],
+                     "sports_level": [1010, 1040]
+                   }
+    ],
+    "auto_publish": true,
+    "publishing_system": [
+        {
+            "json_payload_structure": {
+                "start_time": "",
+                "keywords": [
+                    "home_team_name",
+                    "away_team_name",
+                    "state",
+                    "sport_name"
+                ],
+                "archive_time": "",
+                "id": "test_ai_$sportname$_$game_id$",
+                "published": false,
+                "title": "",
+                "type": "Article",
+                "content": "html_text",
+                "sections": [
+                    {
+                        "sport_name": [
+                            "basketball",
+                            "hockey",
+                            "soccer",
+                            "lacrosse"
+                        ],
+                        "gender": true,
+                        "id_prefix": "ledeaisandbox",
+                        "sport": true
+                    },
+                    {
+                        "sport_name": [
+                            "all"
+                        ],
+                        "gender": false,
+                        "id_prefix": "ledeaisandbox",
+                        "sport": true
+                    }
+                ],
+                "authors": "Sports Desk"
+            },
+            "urls": {
+                "post_url": "https://www.knoxpages.com:443/tncms/webservice/v1/editorial/create_asset/",
+                "get_url": "https://www.knoxpages.com:443/tncms/webservice/v1/editorial/get/",
+                "webservice_key": "gAAAAABd7IwM_NHyDE02uV4DmhJqATq4cvHrEkFhLLfG8-oQWyNTABlMKjjJ6CIuDsdruISkuhvriw_BIlwJv2-Vck2kxO0uEseCL35vfmIJgmvX5FIXkwQkRrHw2dkvzi2AaQEG6yQo",
+                "webservice_password": "gAAAAABd7IwMOj6HinpWjILZ7d_WYAkI11GS-lJ9QGd3bmTJUbKuJJYCq3GRhmESnI7xWXibhJbLSyo-J-Z13j5cZZoKZaAfng=="
+            },
+            "scorestream_postback": false,
+            "system_type": "blox",
+            "system_name": "test_case_blox",
+            "active": true,
+            "scorestream_delay": 120.0
+        },
+        {
+            "headers": {
+                "content-type": "application/json;charset=utf-8"
+            },
+            "publishing_status": "publish",
+            "categories" : {"all":  "sports"},
+            "data": {
+                "categories": [
+                    "category"
+                ],
+                "excerpt": "",
+                "title": "",
+                "content": "",
+                "slug": "test_${date}${game_id}",
+                "status": "",
+                "tags": [
+                    "home_team_name",
+                    "away_team_name",
+                    "state",
+                    "sport_name"
+                ]
+            },
+            "wp_user": "gAAAAABd7InbiiYpQc5wk4z5tuNpVPmSoRNlnBapwwf3ab327hoUeJT6wg554MUChJRIhAMAwxN0M24BTUH-EAkHli7YVGoLkg==",
+            "wp_logon_url": "https://ledeairss.com/wp-login.php",
+            "system_name": "test_avail_wordpress",
+            "active": true,
+            "wp_admin_url": "https://ledeairss.com/wp-admin/",
+            "scorestream_delay": 5.0,
+            "wp_url": "https://ledeairss.com/wp-json/wp/v2/",
+            "wp_pwd": "gAAAAABd7IndG78UazEiyqV8lnWoJHC_OanJCumsaPB-taYA321gOT9nwvPHzO3mKOq0X405a0yJxG97NTVyfI3oNpJEvnt-0Q==",
+            "publishing_category": "testing",
+            "scorestream_postback": false,
+            "system_type": "wordpress",
+            "post_endpoint": "posts"
+        }
+    ],
+    "test_system": true
+      }

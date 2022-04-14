@@ -1,0 +1,51 @@
+{
+    "product_name" : "LedeAi",
+    "key": "ledeai-circleci-testserver",
+    "tie_games_allowed": ["soccer","hockey"],
+    "system_name": "circleci-Prodserver",
+    "published_status": "Unpublished",
+    "log_in_ddb": true,
+    "posted_assets_table" : "RS_AI_POSTED_ASSETS",
+    "posted_assets_table_alt": "RS_AI_POSTED_ASSETS_ALT",
+    "customer_config_table": "RS_CUSTOMER_CONFIG",
+    "active_customers": "RS_ACTIVE_CUSTOMERS",
+    "sports_config": "RS_SPORTS_CONFIG",
+    "active_customer_sqs": "ledeai_active_customer.fifo",
+    "article_handler_sqs": "ledeai_article_handler",
+    "article_content_table": "LEDEAI_CONTENT",
+    "games_table": "RS_AI_SS_GAMES",
+    "teams_table": "RS_AI_SS_TEAMS",
+    "squads_table": "RS_AI_SS_SQUADS",
+    "article_s3_bucket": "ledeai-abundat-articles-output-stage",
+    "games_sports_start_time_index": "sportName-startDateTime-index",
+    "senior_spot_light": "RS_SENIOR_SPOTLIGHT",
+    "processed_senior_spot_light": "RS_PROCESSED_SENIOR_SPOTLIGHT",
+    "senior_spot_light_posted_assets": "RS_SENIOR_SPOTLIGHTS_POSTED_ASSETS",
+    "senior_spot_light_s3" : "rs-senior-spotlight",
+    "log_level": "INFO",
+    "scorestream_delay" : 120,
+    "scheduler_offset": 60,
+    "alert_emails": ["jothi@yavay.co", "evan@yavay.co"],
+    "healthcheck_port": 5000,
+    "article_numbers_only_for_once_job": true,
+    "selenium":
+        {
+        "binary_path": "/usr/bin/google-chrome",
+        "driver_path": null
+          },
+    "sports_season":
+    {
+      "1": ["basketball", "hockey"],
+      "2": ["basketball", "hockey"],
+      "3": ["basketball", "hockey", "baseball", "softball", "lacrosse"],
+      "4": ["baseball", "softball", "lacrosse"],
+      "5": ["baseball", "softball", "lacrosse"],
+      "6": ["baseball", "softball", "lacrosse"],
+      "7": ["football", "soccer", "volleyball"],
+      "8": ["football", "soccer", "volleyball"],
+      "9": ["football", "soccer", "volleyball"],
+      "10": ["football", "soccer", "volleyball"],
+      "11": ["football", "soccer", "volleyball"],
+      "12": ["football", "soccer", "volleyball","basketball", "hockey"]
+    }
+  }

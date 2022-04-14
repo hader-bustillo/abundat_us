@@ -1,0 +1,194 @@
+{
+ "yearly_assets": [
+{
+            "id": "Test_customer_post_back_5_1040_football_wordpress",
+            "game_start_time": "2018-09-05 01:00:00",
+            "invoice_company": "test customer",
+            "log_time": "2018 09 05 01:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "https://example.com",
+            "game_id": 6,
+            "home_team_id": 5,
+            "away_team_id": 6,
+            "game_url": "https://example.com",
+            "type": "wordpress",
+            "sport_name": "football",
+            "squad_id": "1040",
+            "post_response": "",
+            "post_request": ""
+},
+{
+            "id": "Test_customer_post_back_5_1040_football_file",
+            "game_start_time": "2018-09-05 01:00:00",
+            "invoice_company": "test customer",
+            "log_time": "2018 09 05 01:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "",
+            "game_id": 6,
+            "home_team_id": 5,
+            "away_team_id": 6,
+            "game_url": "https://example.com",
+            "type": "file",
+            "post_response": "",
+            "post_request": "",
+            "sport_name": "football",
+            "squad_id": "1040"
+},
+{
+            "id": "Test_customer_post_back_5_1040_football_wordpress",
+            "game_start_time": "2018-05-05 01:00:00",
+            "invoice_company": "test customer",
+            "log_time": "2018 05 05 01:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "https://example.com",
+            "game_id": 6,
+            "home_team_id": 5,
+            "away_team_id": 6,
+            "game_url": "https://example.com",
+            "type": "wordpress",
+            "post_response": "",
+            "post_request": "",
+            "sport_name": "football",
+            "squad_id": "1040"
+}
+ ],
+ "weekly_assets": [
+{
+            "id": "Test_customer_post_back_4_1040_football_wordpress",
+            "invoice_company": "test customer",
+            "game_start_time": "2019-09-26 01:00:00",
+            "log_time": "2019 09 26 04:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "https://ledeairss.com",
+            "game_id": 8,
+            "home_team_id": 4,
+            "away_team_id": 5,
+            "game_url": "https://ledairss.com",
+            "type": "wordpress",
+            "squad_id": "1040",
+            "sport_name": "football ",
+            "post_response": "",
+            "post_request": ""
+},
+{
+            "id": "Test_customer_post_back_4_1040_football_file",
+            "invoice_company": "test customer",
+            "game_start_time": "2019-09-26 01:00:00",
+            "log_time": "2019 09 26 04:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "",
+            "game_id": 8,
+            "home_team_id": 4,
+            "away_team_id": 5,
+            "game_url": "https://ledairss.com",
+            "type": "wordpress",
+            "squad_id": "1040",
+            "sport_name": "football ",
+            "post_response": "",
+            "post_request": ""
+},
+{
+            "id": "Test_customer_post_back_6_1040_football_wordpress",
+            "invoice_company": "test customer",
+            "game_start_time": "2019-09-25 01:00:00",
+            "log_time": "2019 09 25 04:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "https://ledeairss.com",
+            "game_id": 9,
+            "home_team_id": 6,
+            "away_team_id": 7,
+            "game_url": "https://ledairss.com",
+            "type": "wordpress",
+            "squad_id": "1040",
+            "sport_name": "football ",
+            "post_response": "",
+            "post_request": ""
+},
+{
+            "id": "Test_customer_post_back_6_1040_football_file",
+            "invoice_company": "test customer",
+            "game_start_time": "2019-09-25 01:00:00",
+            "log_time": "2019 09 25 04:00:00",
+            "customer_name": "Test_customer_post_back",
+            "customer_id": 1,
+            "post_url": "",
+            "game_id": 9,
+            "home_team_id": 6,
+            "away_team_id": 7,
+            "game_url": "https://ledairss.com",
+            "type": "file",
+            "squad_id": "1040",
+            "sport_name": "football ",
+            "post_response": "",
+            "post_request": ""
+},
+{
+            "id": "Test_customer_post_back_6_1040_football_wordpress",
+            "invoice_company": "test customer",
+            "game_start_time": "2019-09-25 01:00:00",
+            "log_time": "2019 09 25 04:00:00",
+            "customer_name": "Test_customer_post_back_1",
+            "customer_id": 1,
+            "post_url": "https://ledeairss.com",
+            "game_id": 9,
+            "home_team_id": 6,
+            "away_team_id": 7,
+            "game_url": "https://ledairss.com",
+            "type": "wordpress",
+            "squad_id": "1040",
+            "sport_name": "football ",
+            "post_response": "",
+            "post_request": ""
+}
+ ],
+ "yearly_assets_alt": [
+{
+            "id": "Test_customer_post_back_6_1040_football_wordpress",
+            "alt_id": "Test_customer_post_back_5_1040_football_wordpress",
+            "game_start_time": "2018-09-05 01:00:00"
+},
+{
+            "id": "Test_customer_post_back_6_1040_football_file",
+            "game_start_time": "2018-09-05 01:00:00",
+            "alt_id": "Test_customer_post_back_5_1040_football_file"
+},
+{
+            "id": "Test_customer_post_back_6_1040_football_wordpress",
+            "game_start_time": "2018-05-05 01:00:00",
+            "alt_id": "Test_customer_post_back_5_1040_football_wordpress"
+}
+ ],
+ "weekly_assets_alt": [
+{
+            "id": "Test_customer_post_back_5_1040_football_wordpress",
+            "alt_id": "Test_customer_post_back_4_1040_football_wordpress",
+            "game_start_time": "2019-09-26 01:00:00"
+},
+{
+            "id": "Test_customer_post_back_5_1040_football_file",
+            "game_start_time": "2019-09-26 01:00:00",
+            "alt_id": "Test_customer_post_back_4_1040_football_file"
+},
+{
+            "id": "Test_customer_post_back_7_1040_football_wordpress",
+            "game_start_time": "2019-09-25 01:00:00",
+            "alt_id": "Test_customer_post_back_6_1040_football_wordpress"
+},
+{
+            "id": "Test_customer_post_back_7_1040_football_file",
+            "game_start_time": "2019-09-25 01:00:00",
+            "alt_id": "Test_customer_post_back_6_1040_football_file"
+},
+{
+            "id": "Test_customer_post_back_7_1040_football_wordpress",
+            "game_start_time": "2019-09-25 01:00:00",
+            "alt_id": "Test_customer_post_back_6_1040_football_wordpress"
+}
+ ]
+}

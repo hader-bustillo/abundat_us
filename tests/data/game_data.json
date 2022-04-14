@@ -1,0 +1,1156 @@
+{
+  "game_list": [
+    {
+      "gameId": 1,
+      "homeTeamId": 1,
+      "awayTeamId": 2,
+      "homeSquadId": 1010,
+      "awaySquadId": 1010,
+      "sportName": "soccer",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-04 22:00:00",
+      "minUrl": "https://scorestream.com/game/2659866",
+      "dateCreated": "2019-07-30 01:34:28",
+      "venueId": 91708,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 9999,
+      "relativeUrl": "/game/riverside-vs-geneva-2659866",
+      "url": "https://scorestream.com/game/riverside-vs-geneva-2659866",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 1,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 1,
+          "homeTeamScore": "0"
+        },
+        {
+          "awayTeamScore": 2,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 2,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-81.218563",
+      "latitude": "41.713058"
+    },
+    {
+      "gameId": 2,
+      "homeTeamId": 3,
+      "awayTeamId": 4,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "soccer",
+      "gameSegmentType": "half",
+      "creatorUserId": 790150,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-04 23:00:00",
+      "minUrl": "https://scorestream.com/game/2717560",
+      "dateCreated": "2019-09-05 01:00:29",
+      "venueId": 91457,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 80,
+      "relativeUrl": "/game/lakeview-vs-niles-2717560",
+      "url": "https://scorestream.com/game/lakeview-vs-niles-2717560",
+      "sportId": 7,
+      "gameSegmentTypeId": 2,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 11010,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 11020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 1
+        },
+        {
+          "awayTeamScore": 0,
+          "homeTeamScore": 1,
+          "gameSegmentId": 19999
+        }
+      ],
+      "lastScore" : {
+        "awayTeamScore": 0,
+        "homeTeamScore": 1,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": null,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.725635",
+      "latitude": "41.320056"
+    },
+    {
+      "gameId": 3,
+      "homeTeamId": 5,
+      "awayTeamId": 6,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-04 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    },
+    {
+      "gameId": 4,
+      "homeTeamId": 7,
+      "awayTeamId": 8,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "volleyball",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-04 00:30:00",
+      "minUrl": "https://scorestream.com/game/2715248",
+      "dateCreated": "2019-09-04 01:55:53",
+      "venueId": 91411,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/howland-vs-salem-2715248",
+      "url": "https://scorestream.com/game/howland-vs-salem-2715248",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 21,
+          "homeTeamScore": 15
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 21,
+          "homeTeamScore": 15
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 15,
+          "homeTeamScore": 21
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 15,
+          "homeTeamScore": 21
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 8,
+          "homeTeamScore": 15
+        },
+        {
+          "awayTeamScore": 2,
+          "homeTeamScore": 3,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 2,
+        "homeTeamScore": 3,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.74521549999997",
+      "latitude": "41.2397199"
+    },
+    {
+      "gameId": 5,
+      "homeTeamId": 8,
+      "awayTeamId": 9,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "volleyball",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-04 00:30:00",
+      "minUrl": "https://scorestream.com/game/2715248",
+      "dateCreated": "2019-09-04 01:55:53",
+      "venueId": 91411,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/howland-vs-salem-2715248",
+      "url": "https://scorestream.com/game/howland-vs-salem-2715248",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 21,
+          "homeTeamScore": 15
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 21,
+          "homeTeamScore": 15
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 15,
+          "homeTeamScore": 21
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 15,
+          "homeTeamScore": 21
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 8,
+          "homeTeamScore": 15
+        },
+        {
+          "awayTeamScore": 2,
+          "homeTeamScore": 3,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 0,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.74521549999997",
+      "latitude": "41.2397199"
+    },
+    {
+      "gameId": 6,
+      "homeTeamId": 5,
+      "awayTeamId": 6,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2018-09-04 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore" : {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    },
+    {
+      "gameId": 7,
+      "homeTeamId": 5,
+      "awayTeamId": 6,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-10-04 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    },
+    {
+      "gameId": 8,
+      "homeTeamId": 4,
+      "awayTeamId": 5,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-26 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    },
+    {
+      "gameId": 9,
+      "homeTeamId": 6,
+      "awayTeamId": 7,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-09-25 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore":
+      {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 9999,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+
+      "gameYear": 2019,
+      "gameMonth": 9,
+      "gameDay": 4,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    },
+    {
+      "gameId": 10,
+      "homeTeamId": 6,
+      "awayTeamId": 7,
+      "homeSquadId": 1040,
+      "awaySquadId": 1040,
+      "sportName": "football",
+      "gameSegmentType": "game-5",
+      "creatorUserId": 42163,
+      "minutesPerPeriod": null,
+      "startDateTime": "2019-10-01 01:00:00",
+      "minUrl": "https://scorestream.com/game/2715361",
+      "dateCreated": "2019-09-04 02:10:52",
+      "venueId": 91205,
+      "gameTitle": null,
+      "apSpecialName": null,
+      "localGameTimezone": "America/New_York",
+      "sourceConfidenceLevel": 20,
+      "relativeUrl": "/game/champion-vs-poland-seminary-2715361",
+      "url": "https://scorestream.com/game/champion-vs-poland-seminary-2715361",
+      "sportId": 6,
+      "gameSegmentTypeId": 12,
+      "awayTeamCheers": 0,
+      "homeTeamCheers": 0,
+      "totalPosts": 0,
+      "totalPictures": 0,
+      "totalVideos": 0,
+      "totalQuickScores": 0,
+      "totalChats": 0,
+      "boxScores": [
+        {
+          "gameSegmentId": 12010,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12020,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12030,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12040,
+          "awayTeamScore": 0,
+          "homeTeamScore": 0
+        },
+        {
+          "gameSegmentId": 12050,
+          "awayTeamScore": 7,
+          "homeTeamScore": 0
+        },
+        {
+          "awayTeamScore": 14,
+          "homeTeamScore": 0,
+          "gameSegmentId": 19999,
+          "confidenceGrade": 9999,
+          "confidenceGradeInfluencers": []
+        }
+      ],
+      "lastScore": {
+        "awayTeamScore": 14,
+        "homeTeamScore": 0,
+        "confidenceGrade": 50,
+        "stoppageStatusId": 9999,
+        "gameSegmentId": 19999,"stoppageMessage": null
+      },
+      "gameYear": 2019,
+      "gameMonth": 10,
+      "gameDay": 1,
+      "longitude": "-80.8512961",
+      "latitude": "41.316068"
+    }
+  ],
+  "team_list": [
+    {
+      "teamId": 1,
+      "teamName": "A",
+      "mascot1": "A",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "A",
+      "minTeamName": "A",
+      "shortTeamName": "A",
+      "apTeamName": "A",
+      "colloquialTeamName": "A",
+      "locationId": 91708,
+      "city": "Columbus",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 2,
+      "teamName": "B",
+      "mascot1": "B",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "B",
+      "minTeamName": "B",
+      "shortTeamName": "B",
+      "apTeamName": "B",
+      "colloquialTeamName": "B",
+      "locationId": 91708,
+      "city": "Columbus",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 3,
+      "teamName": "C",
+      "mascot1": "C",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "C",
+      "minTeamName": "C",
+      "shortTeamName": "C",
+      "apTeamName": "C",
+      "colloquialTeamName": "C",
+      "locationId": 91708,
+      "city": "Mansfield",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 4,
+      "teamName": "D",
+      "mascot1": "D",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "D",
+      "minTeamName": "D",
+      "shortTeamName": "D",
+      "apTeamName": "D",
+      "colloquialTeamName": "D",
+      "locationId": 91708,
+      "city": "Mansfield",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 5,
+      "teamName": "E",
+      "mascot1": "E",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "E",
+      "minTeamName": "E",
+      "shortTeamName": "E",
+      "apTeamName": "E",
+      "colloquialTeamName": "E",
+      "locationId": 91708,
+      "city": "Columbus",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 6,
+      "teamName": "F",
+      "mascot1": "F",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "F",
+      "minTeamName": "F",
+      "shortTeamName": "F",
+      "apTeamName": "F",
+      "colloquialTeamName": "F",
+      "locationId": 91708,
+      "city": "Mansfield",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 7,
+      "teamName": "G",
+      "mascot1": "G",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "G",
+      "minTeamName": "G",
+      "shortTeamName": "G",
+      "apTeamName": "G",
+      "colloquialTeamName": "G",
+      "locationId": 91708,
+      "city": "Mansfield",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "TN"
+    },
+    {
+      "teamId": 8,
+      "teamName": "H",
+      "mascot1": "H",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "H",
+      "minTeamName": "H",
+      "shortTeamName": "H",
+      "apTeamName": "H",
+      "colloquialTeamName": "H",
+      "locationId": 91708,
+      "city": "Atlanta",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "GA"
+    },
+       {
+      "teamId": 9,
+      "teamName": "I",
+      "mascot1": "I",
+      "color1Id": 1400,
+      "color2Id": 1010,
+      "color3Id": null,
+      "isOfficialTeam": 1,
+      "hideLevel": 0,
+      "levelOfPlayId": 1000,
+      "organizationId": 1000,
+      "defaultSquadId": 1010,
+      "squadListIsLocked": 1,
+      "varsityLetter": "R",
+      "acronymTeamName": "I",
+      "minTeamName": "I",
+      "shortTeamName": "I",
+      "apTeamName": "I",
+      "colloquialTeamName": "I",
+      "locationId": 91708,
+      "city": "Atlanta",
+      "country": "US",
+      "officialTeamName": "Riverside High School",
+      "relativeUrl": "/team/riverside-high-school-beavers-13403",
+      "url": "https://scorestream.com/team/riverside-high-school-beavers-13403",
+      "backgroundTeamPictureIds": [],
+      "mascotTeamPictureIds": [
+        83010
+      ],
+      "mascotOrVarsityLetterTeamPictureId": 83010,
+      "squadIds": [
+        1010,
+        1020,
+        1030,
+        1040,
+        1050,
+        1060
+      ],
+      "longitude": 0,
+      "latitude": 0,
+      "state": "GA"
+    }
+  ],
+  "squad_list": [
+    {
+      "squadId": 1040,
+      "gender": "girls",
+      "level": "High School Varsity",
+      "shortLevel": "Varsity",
+      "minLevel": null,
+      "sortOrder": 1040,
+      "gameCardDisplay": "Girls Varsity {sport}",
+      "scoreboardDisplay": "Girls Varsity {sport}",
+      "selectionDisplay": "Girls High School Varsity",
+      "spgDisplayLong": "Girls Varsity {sport}",
+      "spgDisplayShort": "Girls HS{sportAbbreviation}",
+      "spgDisplayMin": "G{sportAbbreviation}",
+      "display": "Girls High School Varsity",
+      "shortDisplay": "Girls Varsity",
+      "parentOrganizationId": 1000
+    },
+        {
+      "squadId": 1010,
+      "gender": "boys",
+      "level": "High School Varsity",
+      "shortLevel": "Varsity",
+      "minLevel": null,
+      "sortOrder": 1040,
+      "gameCardDisplay": "Boys Varsity {sport}",
+      "scoreboardDisplay": "Boys Varsity {sport}",
+      "selectionDisplay": "Boys High School Varsity",
+      "spgDisplayLong": "Boys Varsity {sport}",
+      "spgDisplayShort": "Boys HS{sportAbbreviation}",
+      "spgDisplayMin": "B{sportAbbreviation}",
+      "display": "Boys High School Varsity",
+      "shortDisplay": "Boys Varsity",
+      "parentOrganizationId": 1000
+    }
+  ]
+}

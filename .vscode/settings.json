@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/opt/miniconda3/envs/abundat_rs/bin/python",
+    "python.pythonPath": "/opt/miniconda3/envs/abundat_rs/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.condaPath": "/opt/miniconda3/condabin/conda"
+}
